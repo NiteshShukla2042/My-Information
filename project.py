@@ -62,7 +62,9 @@ elif page == "Contact":
     st.write("LinkedIn: www.linkedin.com/in/nitesh-shukla-a12214313")
     st.write("Phone No:  *9555206303*")
     st.markdown("[🔗 View on GitHub](https://github.com/NiteshShukla2042")
-    st.file_uploader("GitHub Image",type=["png","jpg","jpeg"], width=500)
+    #st.file_uploader("GitHub Image",type=["png","jpg","jpeg"], width=500)
+   
+
     
     #st.success("Thanks! If you want to contact with me please go to next step.")
 
@@ -71,8 +73,8 @@ elif page == "Contact":
     #st.file_uploader("Upload an Image",type=["png","jpg","jpeg"], width=200)
     #st.success("Thanks[! Go to the next step of my identity.")
 
-    st.header("This is my Resume")
-    st.file_uploader("Upload an Image",type=["png","jpg","jpeg"], width=700)
+    #st.header("This is my Resume")
+    #st.file_uploader("Upload an Image",type=["png","jpg","jpeg"], width=700)
     #st.success("Thanks! Go to the next step of my identity.")
 
 
@@ -85,4 +87,6 @@ elif page == "Contact":
         message = st.text_area("Feedback")
         submit = st.form_submit_button("Send")
     if submit:
+
         st.success("Thanks! I will get back to you soon.")
+        
